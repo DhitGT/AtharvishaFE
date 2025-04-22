@@ -20,7 +20,6 @@
 </template>
 <script setup>
 import { ref,onMounted } from 'vue';
-import Scrollbar from 'smooth-scrollbar'
 const isMd = useBreakpoint('md')
 definePageMeta({
   layout: 'landing' 
