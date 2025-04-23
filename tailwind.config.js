@@ -12,8 +12,21 @@ export default {
       "./*",
     ],
     theme: {
-      extend: {},
+      extend: {
+        maskImage: {
+          'gradient-fade': 'linear-gradient(to top, black, transparent)',
+        },
+      },
     },
-    plugins: [],
+    plugins: [
+      function ({ addUtilities }) {
+        addUtilities({
+          '.mask-gradient-fade': {
+            maskImage: 'linear-gradient(to top, black, transparent)',
+            WebkitMaskImage: 'linear-gradient(to top, black, transparent)',
+          },
+        })
+      }
+    ],
   };
   

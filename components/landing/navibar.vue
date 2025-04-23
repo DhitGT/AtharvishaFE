@@ -38,17 +38,17 @@
         >
           <ul class="flex flex-col text-center gap-4 md:gap-0 md:flex-row md:space-x-4 mt-4 md:mt-0">
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="/"
                 class="text-[#A6EFFF] font-bold border-b-2 border-[#A6EFFF] pb-1 md:px-2 hover:text-cyan-500 transition-colors"
-                >Home</a
+                >Home</NuxtLink
               >
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="/about"
                 class="text-gray-100 md:px-2 hover:text-cyan-500 transition-colors"
-                >About</a
+                >About</NuxtLink
               >
             </li>
             <li>

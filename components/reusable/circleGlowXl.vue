@@ -1,7 +1,7 @@
 <template>
   <div
-    class="absolute transform z-[2] -translate-x-1/2 rounded-full blur-[100px] opacity-40"
-    :class="[bgColorClass, sizeClass]"
+    class="absolute transform z-[2] w-[508px] h-[108px] -translate-x-1/2 rounded-full blur-[100px] opacity-40"
+    :class="bgColorClass"
     :style="computedStyle"
   ></div>
 </template>
@@ -12,8 +12,8 @@ import { computed } from 'vue'
 const props = defineProps({
   top: { type: String, default: '0px' },
   left: { type: String, default: '50%' },
-  w: { type: String, default: '308px' },
-  h: { type: String, default: '308px' },
+  w: { type: String, default: '408px' },
+  h: { type: String, default: '408px' },
   color: {
     type: String,
     default: 'cyan',
@@ -22,12 +22,6 @@ const props = defineProps({
   },
 })
 
-const sizeClass = computed(() => {
-  return {
-    [`w-[${props.w}]`]: true,
-    [`h-[${props.h}]`]: true,
-  }
-})
 
 const computedStyle = computed(() => ({
   top: props.top,
