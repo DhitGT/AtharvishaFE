@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
-  css: ['material-symbols',"~/assets/css/main.css","~/assets/css/tailwind.css" ],
-  devtools: { enabled: true },
+  css: ['material-symbols',"~/assets/css/main.css","~/assets/css/tailwind.css",'aos/dist/aos.css' ],
+  devtools: { enabled: false },
   modules: [
     "@nuxt/fonts",
     "@nuxt/icon",

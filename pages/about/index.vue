@@ -1,9 +1,10 @@
 <template>
-    <div  class="bg-[#101317] max-w-screen overflow-x-hidden">
+    <div  class="bg-[#101317] relative max-w-screen overflow-x-hidden">
         <LandingNavibar />
-        <div class="bg-grid mt-18 min-h-full">
+        <div class="bg-grid mt-18 min-h-full container mx-auto">
             <AboutHero />
             <AboutKepsek/>
+            <AboutDescription/>
         </div>
     </div>
 </template>

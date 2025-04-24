@@ -1,14 +1,14 @@
 <template>
   <section
-    class="flex flex-col overflow-hidden items-center justify-center  "
+    class="flex flex-col overflow-hidden container mx-auto items-center justify-center  "
   >
     <ReusableCircleGlowXl :top="'10%'" :left="'50%'" />
     <div
-      class="relative flex flex-col z-30   h-screen items-center w-140 rounded-full p-10"
+      class="relative flex flex-col z-30  w-full   max-h-screen items-center  rounded-full p-10"
     >
       <img
         src="/static/svg/MaskEclipse.svg"
-        class=" w-100 md:min-w-[70vw] h-auto  relative"
+        class=" min-w-[100vw] md:min-w-auto  md:w-[70%]  h-auto  relative"
       />
       <div class="absolute top-40 md:top-60 max-w-full text-center">
         <h2 class="text-3xl text-white mb-4">About</h2>
@@ -27,6 +27,7 @@
           >
         </button>
       </div>
+      
     </div>
   </section>
 </template>

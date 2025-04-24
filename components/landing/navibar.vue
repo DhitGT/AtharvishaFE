@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen ">
+  <div class="w-screen">
     <nav
       class="bg-transparent border-b border-white/30 fixed top-0 w-screen backdrop-blur-2xl z-[99]"
     >
@@ -36,18 +36,30 @@
           :class="menuOpen ? 'block' : 'hidden'"
           class="w-full md:flex md:items-center md:justify-between md:w-auto"
         >
-          <ul class="flex flex-col text-center gap-4 md:gap-0 md:flex-row md:space-x-4 mt-4 md:mt-0">
+          <ul
+            class="flex flex-col text-center gap-4 md:gap-0 md:flex-row md:space-x-4 mt-4 md:mt-0"
+          >
             <li>
               <NuxtLink
                 to="/"
-                class="text-[#A6EFFF] font-bold border-b-2 border-[#A6EFFF] pb-1 md:px-2 hover:text-cyan-500 transition-colors"
+                :class="[
+                  $route.path === '/'
+                    ? 'text-[#A6EFFF] font-bold border-b-2 border-[#A6EFFF] pb-1'
+                    : 'text-gray-100',
+                  'md:px-2 hover:text-cyan-500 transition-colors',
+                ]"
                 >Home</NuxtLink
               >
             </li>
             <li>
               <NuxtLink
                 to="/about"
-                class="text-gray-100 md:px-2 hover:text-cyan-500 transition-colors"
+                :class="[
+                  $route.path === '/about'
+                    ? 'text-[#A6EFFF] font-bold border-b-2 border-[#A6EFFF] pb-1'
+                    : 'text-gray-100',
+                  'md:px-2 hover:text-cyan-500 transition-colors',
+                ]"
                 >About</NuxtLink
               >
             </li>
@@ -75,10 +87,9 @@
           </ul>
 
           <div
-          :class="menuOpen ? 'flex' : 'hidden'"
-            class="  w-full md:flex-row  mx-auto gap-4 items-center md:items-center  md:space-x-4 mt-4 md:mt-0"
+            :class="menuOpen ? 'flex' : 'hidden'"
+            class="w-full md:flex-row mx-auto gap-4 items-center md:items-center md:space-x-4 mt-4 md:mt-0"
           >
-
             <button
               class="bg-[#A6EFFF] text-gray-900 font-semibold py-2 px-5 rounded hover:bg-cyan-400 w-full md:w-auto md:mt-0"
             >
@@ -87,9 +98,8 @@
           </div>
         </div>
         <div
-          class="md:flex hidden flex-col  md:flex-row items-start md:items-center  md:space-x-4 mt-4 md:mt-0"
+          class="md:flex hidden flex-col md:flex-row items-start md:items-center md:space-x-4 mt-4 md:mt-0"
         >
-
           <button
             class="bg-[#A6EFFF] text-gray-900 font-semibold py-2 px-5 rounded hover:bg-cyan-400 w-full md:w-auto mt-2 md:mt-0"
           >

@@ -5,7 +5,7 @@
     </h2>
     <div class="flex flex-col px-4 md:x-0 md:flex-row  justify-center gap-5">
       <div
-        class="relative p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
+        data-aos-anchor-placement="bottom-bottom" data-aos="fade-up" data-aos-delay="100" class="relative p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
       >
         <div
           class="flex items-center md:pe-20 gap-4 cursor-pointer bg-gradient-to-b from-[#1A2129] to-[#161B20] rounded-bl-2xl rounded-tr-2xl p-5 shadow-lg transition-transform duration-300 hover:scale-105"
@@ -25,7 +25,7 @@
       </div>
 
       <div
-        class="relative p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
+        data-aos-anchor-placement="bottom-bottom" data-aos="fade-up" data-aos-delay="200" class="relative p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
       >
         <div
           class="flex md:pe-20 gap-4 items-center cursor-pointer bg-gradient-to-b from-[#1A2129] to-[#161B20] rounded-bl-2xl rounded-tr-2xl p-5 shadow-lg transition-transform duration-300 hover:scale-105"
@@ -67,7 +67,7 @@
       </div>
 
       <div
-        class="relative p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
+        data-aos-anchor-placement="bottom-bottom" data-aos="fade-up" data-aos-delay="300" class="relative p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
       >
         <div
           class="flex items-center md:pe-20 gap-4 cursor-pointer bg-gradient-to-b from-[#1A2129] to-[#161B20] rounded-bl-2xl rounded-tr-2xl p-5 shadow-lg transition-transform duration-300 hover:scale-105"
