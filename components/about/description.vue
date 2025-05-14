@@ -101,8 +101,8 @@
       </p>
     </div>
     <div class="text-white">
-      <div class="flex w-full justify-center gap-4">
-        <div class="max-w-1/2 flex flex-col justify-between items-end gap-3">
+      <div class="flex w-full flex-col md:flex-row justify-center gap-4">
+        <div class="md:max-w-1/2 flex flex-col justify-between items-end gap-3">
           <reusable-base-card
             textSize="xl"
             mdTextSize="3xl"
@@ -110,7 +110,7 @@
             text="Information Of School"
           />
           <reusable-base-card
-            textSize="lg"
+            textSize="sm"
             mdTextSize="lg"
             titleTextSize="xl"
             titleMdTextSize="3xl"
@@ -128,10 +128,10 @@
 "
           />
         </div>
-        <div class="max-w-2/3 flex flex-col justify-between gap-2">
+        <div class="md:max-w-2/3 flex flex-col justify-between gap-2">
           <reusable-base-card
             width="100%"
-            textSize="lg"
+            textSize="sm"
             mdTextSize="lg"
             titleTextSize="xl"
             titleMdTextSize="2xl"
