@@ -6,6 +6,8 @@
             <AboutKepsek/>
             <AboutDescription/>
         </div>
+            <LandingFoooter/>
+
     </div>
 </template>
 <script setup>
