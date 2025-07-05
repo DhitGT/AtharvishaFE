@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute transform z-[2] w-[508px] h-[108px] -translate-x-1/2 rounded-full blur-[100px] opacity-40"
+    class="absolute transform z-[2] w-[508px] transition ease-in-out duration-700 h-[108px] -translate-x-1/2 rounded-full blur-[100px] opacity-40"
     :class="bgColorClass"
     :style="computedStyle"
   ></div>

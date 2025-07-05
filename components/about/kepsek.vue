@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative z-30 container mt-[-10em] mx-auto text-white  rounded-lg  flex flex-col  items-center"
+    class="relative z-30 container mt-[0em] mx-auto text-white  rounded-lg  flex flex-col  items-center"
   >
     <img
       src="/static/img/B AGUS.png"
