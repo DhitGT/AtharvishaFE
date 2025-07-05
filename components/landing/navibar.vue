@@ -64,24 +64,42 @@
               >
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="/majors"
+                :class="[
+                  $route.path.includes('majors')
+                    ? 'text-[#A6EFFF] font-bold border-b-2 border-[#A6EFFF] pb-1'
+                    : 'text-gray-100',
+                  'md:px-2 hover:text-cyan-500 transition-colors',
+                ]"
                 class="text-gray-100 md:px-2 hover:text-cyan-500 transition-colors"
-                >Majors</a
+                >Majors</NuxtLink
               >
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="/teachers"
+                :class="[
+                  $route.path === '/teachers'
+                    ? 'text-[#A6EFFF] font-bold border-b-2 border-[#A6EFFF] pb-1'
+                    : 'text-gray-100',
+                  'md:px-2 hover:text-cyan-500 transition-colors',
+                ]"
                 class="text-gray-100 md:px-2 hover:text-cyan-500 transition-colors"
-                >Teacher's</a
+                >Teacher's</NuxtLink
               >
             </li>
             <li>
-              <a
-                href="#"
+              <NuxtLink
+                to="/memories"
+                :class="[
+                  $route.path === '/memories'
+                    ? 'text-[#A6EFFF] font-bold border-b-2 border-[#A6EFFF] pb-1'
+                    : 'text-gray-100',
+                  'md:px-2 hover:text-cyan-500 transition-colors',
+                ]"
                 class="text-gray-100 md:px-2 hover:text-cyan-500 transition-colors"
-                >Memories</a
+                >Memories</NuxtLink
               >
             </li>
           </ul>
@@ -112,6 +130,7 @@
 </template>
 
 <script setup>
+import { NuxtLink } from "#components";
 import { ref } from "vue";
 const menuOpen = ref(false);
 </script>

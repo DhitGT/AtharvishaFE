@@ -7,11 +7,10 @@
     >
       <div
         data-aos="fade-right"
-        data-aos-delay="100"
         class="relative md:max-w-1/2 p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
       >
         <img
-          src="/images/image-1.png"
+          src="/images/atharvisha/all_celebrate.JPG"
           alt="Evolving Together"
           class="md:h-96 object-cover rounded-bl-2xl rounded-tr-2xl"
         />
@@ -29,11 +28,11 @@
     >
       <div
         data-aos="fade-left"
-        data-aos-delay="100"
+        
         class="relative md:max-w-1/2 p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
       >
         <img
-          src="/images/image-2.png"
+          src="/images/atharvisha/panit_night_smoke.JPG"
           alt="Evolving Together"
           class="md:h-96 object-cover rounded-bl-2xl rounded-tr-2xl"
         />
@@ -51,11 +50,10 @@
     >
       <div
         data-aos="fade-right"
-        data-aos-delay="100"
         class="relative md:max-w-1/2 p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
       >
         <img
-          src="/images/image-1.png"
+          src="/images/atharvisha/longflag_panit.JPG"
           alt="Evolving Together"
           class="md:h-96 object-cover rounded-bl-2xl rounded-tr-2xl"
         />
@@ -75,11 +73,10 @@
     >
       <div
         data-aos="fade-left"
-        data-aos-delay="100"
         class="relative md:max-w-1/2 p-0.5 rounded-bl-2xl rounded-tr-2xl bg-gradient-to-b from-[#5C728E] to-[#20324B]"
       >
         <img
-          src="/images/image-2.png"
+          src="/images/atharvisha/night_rb_left.JPG"
           alt="Evolving Together"
           class="md:h-96 object-cover rounded-bl-2xl rounded-tr-2xl"
         />

@@ -47,9 +47,13 @@
 import { ref, computed } from "vue";
 
 const images = [
-  "/images/image-1.png",
-  "/images/image-2.png",
-  "/images/image-1.png",
+  "/images/atharvisha/drum.JPG",
+  "/images/atharvisha/all.JPG",
+  "/images/atharvisha/all_handsup.JPG",
+  "/images/atharvisha/panit.JPG",
+  "/images/atharvisha/circle_point_up.JPG",
+  "/images/atharvisha/night_rb.JPG",
+  "/images/atharvisha/circle_smoke_night.JPG",
 ];
 
 const currentIndex = ref(0);

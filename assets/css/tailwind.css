@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .gradient-border {
+    border: 3px solid; /* Border width */
+    border-image: linear-gradient(#5c728e, #20324b) 1;
+    border-radius: 2em;
+  }
+}
