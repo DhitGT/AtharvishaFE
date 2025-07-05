@@ -6,7 +6,7 @@
       :top="isMd ? '0%' : '-30%'"
     />
     <!-- Background Image -->
-    <video
+    <!-- <video
       src="/videos/teaser.mp4"
       poster="/images/atharvisha/all.JPG"
       preload="metadata"
@@ -17,7 +17,7 @@
       class="h-full w-full object-cover pointer-events-none"
     >
       Your browser does not support the video tag.
-    </video>
+    </video> -->
 
     <!-- Black overlay from top to bottom (black to transparent) -->
     <div
